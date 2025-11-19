@@ -1,0 +1,70 @@
+\documentclass[12pt, a4paper, twoside, romanian]{teza-upb}
+
+\input{settings}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\author{\hl{Prenume NUME}}
+
+\title{\hl{\textit{Titlul temei lucrării de disertație}}}
+
+
+\facultatea{Facultatea de Electronică, Telecomunicații și Tehnologia Informației}
+%\tiplucrare{licență}
+\tiplucrare{dizertație}
+
+\submissiondate{\hl{data}}
+\campus{Leu} 
+\program{BIOSINF}
+%\titlulobtinut{Inginer}
+\titlulobtinut{Master}
+\advisor{\hl{Titlu Prenume NUME}} 
+
+
+
+
+\beforepreface
+
+\listoftables
+
+
+\listoffigures
+\cleardoublepage
+
+\abbreviations{ 
+CNN	& \textit{Convolutional Neural Network} (lb. en.; rețea neurală convoluțională)\\
+IA	& Inteligență artificială\\
+MFCC & \textit{Mel-frequency Cepstral Coefficient} (lb. en.; coeficient Mel-cepstral)\\
+RODeCAR & \textit{Romanian Deva Criminal Investigation Audio Recordings} (set de date) 
+}
+\cleardoublepage
+%\preface{}
+\afterpreface 
+
+\pagenumbering{arabic}
+\pagestyle{plain}
+\setcounter{page}{1}
+
+\include{1-Introducere}
+\include{2-Notatii}
+\include{3-Tabele}
+\include{4-Citare.tex}
+
+
+
+%\bibliographystyle{unsrt}
+%\bibliography{referinte}
+
+\printbibliography[heading=bibintoc,title={BIBLIOGRAFIE}]
+
+
+\appendix
+\include{Appendix1}
+
+
+
+
+
+\end{document}
