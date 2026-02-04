@@ -25,8 +25,8 @@ This repo holds the LaTeX source files and the final .pdf thesis format.
 - **src/Makefile** - the Makefile that tells the LaTeX compiler how to compile DissertationThesis.pdf. Should not be modified.
 
 # Template
-In order to prevent accidental modifications of the template files, i will be setting just read permissions(chmod 400) on the files that must not be altered.\\
-For this to work, the project needs to be cloned on a linux filesystem partition(ext4,btrfs, etc.).\\
+In order to prevent accidental modifications of the template files, i will be setting just read permissions(chmod 400) on the files that must not be altered.\
+For this to work, the project needs to be cloned on a linux filesystem partition(ext4,btrfs, etc.).\
 Files with read permissions:
 - LaTeX class files: teza-upb.cls
 - settings file: settings.tex
