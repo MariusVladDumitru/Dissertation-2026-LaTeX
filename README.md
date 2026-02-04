@@ -10,10 +10,10 @@ This repo holds the LaTeX source files and the final .pdf thesis format.
 # Folder Structure
 - **Template**: Contains dissertation thesis templates downloaded from [BIOSINF WEBSITE](https://biosinf.pub.ro/dissertation/).
 - **src**: Contains LaTeX .tex source files for the final thesis and any other helpul files.
-- **src/chapters**: Contains LaTeX .tex files that generate thesis chapters.
-- **src/code**: Contains LaTeX .tex files that list source code.
-- **src/figures**: Contains images or LaTeX .tex files that generate images that represent figures.
-- **src/tables**: Contains LateX .tex files that generate tables.
+  - **src/chapters**: Contains LaTeX .tex files that generate thesis chapters.
+  - **src/code**: Contains LaTeX .tex files that list source code.
+  - **src/figures**: Contains images or LaTeX .tex files that generate images that represent figures.
+  - **src/tables**: Contains LateX .tex files that generate tables.
 - **src/Notes**: Contains LaTeX .tex files for any other files that are NOT the Dissertation Thesis, like Notes, planner, experiments, etc.
 - **docs**: Contains any notes, writing guides, final thesis, in .pdf format and/or any other formats i find useful.
 
