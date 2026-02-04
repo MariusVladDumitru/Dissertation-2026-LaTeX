@@ -1,0 +1,3 @@
+When you want to push to overleaf.com master branch use:
+
+git push overleaf.com main:master
