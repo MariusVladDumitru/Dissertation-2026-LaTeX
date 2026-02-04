@@ -18,6 +18,7 @@ This repo holds the LaTeX source files and the final .pdf thesis format.
 - **docs**: Contains any notes, writing guides, final thesis, in .pdf format and/or any other formats i find useful.
 
 # Important Files
+- Everything in Template folder. Mark everything there as read-only.
 - **src/DissertationThesis.tex** - the main .tex file that assembles everything and compiles the final DissertationThesis.pdf.
 - **src/teza-upb.cls** - the document type(it's class). Should not be modified.
 - **src/settings.tex** - template settings. Should not be modified.
