@@ -1,6 +1,22 @@
 # Introduction
+Repo for my Dissertation Thesis.\\
+I am a master student at [BIOSINF Master Program](https://biosinf.pub.ro/), this repo is for my written dissertation thesis and any asociated files(notes, figures, tables, etc.)\\
+I am using LaTeX to write the final thesis and asociated files(notes, figures, tables, etc). Basically, i intend to use LaTeX for evreything.\\
+Repo contains .tex files and asociated final .pdf files.\\
+Repo does not contain intermediary files, resulted from compiling .tex files.\\
+Repo contains the dissertation templates downloaded from [BIOSINF WEBSITE](https://biosinf.pub.ro/dissertation/).
 This repo holds the LaTeX source files and the final .pdf thesis format.  
-For my Dissertation Thesis i am using a certain template that i do not want to modify in any way.  
-Because of this, the only editable file, from the template, will be the main.tex file. The rest of the files will have chmod 400 on them, meaning they will only have read permissions, butno write permissions.  
-By doing so, i prevent any accidental editing of my template.  
-For this i needed a Linux filesystem(i am using BTRFS on an Arch-Linux machine) to be able to set permissions.
+
+# Folder Structure
+
+- **Template**: Contains dissertation thesis templates downloaded from [BIOSINF WEBSITE](https://biosinf.pub.ro/dissertation/).
+- **src**: Contains latex .tex source files for the final thesis and any other helpul files.
+- **docs**: Contains any notes, writing guides, final thesis, in .pdf format and/or any other formats i find useful.
+
+# Template
+In order to prevent accidental modifications of the template files, i will be setting just read permissions(chmod 400) on the files that must not be altered.\\
+For this to work, the project needs to be cloned on a linux filesystem partition(ext4,btrfs, etc.).\\
+Files with read permissions:
+- LaTeX class files: teza-upb.cls
+- settings file: settings.tex
+- Makefile file: Makefile
