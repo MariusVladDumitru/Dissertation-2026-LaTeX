@@ -1,0 +1,58 @@
+% Preamble
+\documentclass[12pt]{article}
+\usepackage{hyperref}
+\title{Vedere Foarte Generala}
+
+% Document
+\begin{document}
+\maketitle
+
+\section{Despre acest document}
+    Prin acest document îmi propun să îmi stabilesc o vedere generală("General Overview") asupra proiectului meu de dizertație.\\
+    Documentul nu face parte din teza finală, ci din notițele mele personale, cu rolul de a mă ajuta să mă organizez mai bine.
+
+\section{De ce am ales această temă}
+    Am plecat de la următoarea idee: am studiat la școală algoritmi clasici de ML, rețele neurale, dar aproape nimic despre Reinforcement Learning și Deep Reinforcement Learning (Reinforcement Learning + Rețele Neurale.). Din totdeauna mi-au plăcut jocurile pe calculator și am privit proiectul de dizertație ca ocazia potrivită de a combina pasiunea pentru jocurile pe calculator cu posbilitatea de a studia mai în detaliu Reinforcement Learning și Deep Reinforcement Learning, față de ceea ce sa parcurs la orele de curs și laborator. \\
+    În această ipoteză, am pornit cu pretextul de a dezvolta boți(jucători autonomi) pentru un joc pe baza tehnicilor si algoritmilor de Reinforcement Learning si/sau Deep Reinforcement Learning. Tehnicile și algoritmii de Reinforcement Learning si/sau Deep Reinforcement Learning sunt potrivite pentru această clasă de probleme, din cele 3 metode de învățare automată(învățare supervizată, învățare nesupervizată, învățare susținută(Reinforcement Learning)). \\
+    \textbf{Ținta finală dorită ideală este dezvoltarea de jucători complet autonomi, pe baza de Reinforcement Learning / Deep Reinforcement Learning, capabili să joace, fără niciun fel de intervenție umană, un joc pe calculator.} \\
+
+\section{Cel mai mare Risc}
+    Trebuie să fiu foarte FOARTE atent la ceea ce îmi propun să fac: trebuiesc finalizate toate task-urile pe care mi le propun să le fac. Riscul foarte mare pe care îl are proiectul, pentru mine personal, este să îmi propun lucrui prea ambițioase și/sau prea multe ca număr pe care să nu fiu capabil să le termin în timpul pe care îl am la dispoziție. Este valabilă și reciproca, să nu am lucruri prea simple sau prea puține care să nu se preteze pentru complexitatea unei lucrări de dizertație. \\
+    \textbf{Deci, trebuie să existe un echilibru între complexitatea cerințelor și numărul lor vs. timpul de care dispun pentru execuție.}
+
+\section{De ce MicroRTS ?}
+    Printre ingredientele învățării susținute se află un mediu în care agentul/agenții execută acțiuni. În cazul meu, mediul reprezintă unul sau mai multe jocuri pe calculator. \\
+    Pentru simplitate am ales să folosesc un singur mediu(joc) pe calculator. \\
+    M-au atras jocurile de strategie și am vrut să aleg un joc din sfera RTS. \\
+    Am luat în considerare Starcraft/Starcraft 2, ambele având interfețe pentru control exterior, dar sunt mult prea complexe pentru mine. \\
+    Am luat în considerare și 0AD, joc open-source, cu avantajul de a avea access full la codul sursă, dar dezavantajul de a nu avea o interfață pentru control exterior bună + are o complexitate mult prea ridicată pentru mine. \\
+    În cele din urmă, am optat pentru MicroRTS (\url{https://github.com/Farama-Foundation/MicroRTS}), cu următoarele avantaje majore:
+    \begin{itemize}
+        \item Este mai simplu, nu la fel de complex precum Starcraft/Warcraft3/0AD
+        \item Are deja câteva paper-uri față de care mă pot raporta + ceva documentație.
+        \item Are deja cod scris pentru o interfață prin care pot vedea efectiv ceea ce fac jucătorii(cum se plimbă unitățile, ce se construiește, etc.)
+        \item Are deja cod scris pe care l-as putea folosi pentru extragerea starii curente.
+        \item Este determinist și în timp real.
+    \end{itemize}
+    Dezavantaje MicroRTS:
+    \begin{itemize}
+        \item Este scris în Java, nu Python.
+        \item Nu are nativ o interfață de control exterior în Python, dar există soluții precum \url{https://github.com/Farama-Foundation/MicroRTS-Py} \url{https://github.com/Bam4d/python-microRTS} \url{https://github.com/douglasrizzo/python-microRTS} \url{https://douglasrizzo.com.br/python-microRTS/}. Ele nu sunt o soluție plug and play pentru mine, dar sunt un punct de plecare. Va trebui să dezvolt o interfață în python folosindu-mă de ce există deja.
+        \item Vor trebui făcute modificări ale codului MicroRTS pentru a se putea integra cu restul proiectului, deci va trebui să lucrez cu puțin cod Java.
+        \item Nu este un joc RTS full. NU are aceeasi complexitate ca un joc RTS full.
+    \end{itemize}
+
+\section{Link-uri}
+    Principalele link-uri catre repo-urile de git:
+    \begin{itemize}
+        \item Versiunea mea de MicroRTS $\rightarrow$ \url{https://gitlab.cs.pub.ro/marius_vlad.dumitru/MicroRTS}. Am clonat repo original de MicroRTS la care voi adăuga modificările mele.
+        \item Versiunea mea de MicroRTS wiki $\rightarrow$ \url{https://gitlab.cs.pub.ro/marius_vlad.dumitru/MicroRTS/-/wikis/home}. Am clonat repo original de wiki la care adaug modificările mele. Nu cred că am să îl folosesc foarte mult, dar l-am adăugat aici, just in case.
+        \item Tot codul python va fi aici $\rightarrow$ \url{https://gitlab.cs.pub.ro/marius_vlad.dumitru/dissertation-2026}
+        \item Pentru editarea tezei $\rightarrow$ \url{https://gitlab.cs.pub.ro/marius_vlad.dumitru/dissertation-2026-latex}. Aici am tot ce înseamnă cod LaTeX (text teza + text notite + figuri + cod listat + tabele + orice altceva am nevoie la editarea tezei) la care adaug pdf-ul final al tezei + pdf-urile notitelor + orice al pdf relevant.
+  \end{itemize}
+
+    \section{Puncte foarte generale ale proiectului}
+        Am listat punctele foarte generale de urmărit ale proiectului în General\_MainPoints.tex, General\_MainPoints.pdf. Ele au un caracter foarte general.\\
+        Ideea de bază este de a-mi oferi niste linii de ghidaj foarte generale ale proiectului. \\
+        Le-am pus separat în ideea de a le prezenta sumarizat, poate voi face modificări în viitor, deși este puțin probabil.
+\end{document}
