@@ -1,0 +1,13 @@
+Descrierea temei:
+	- perceptie, luare de decizii, actiune conform unor seturi de reguli predefinite.
+	- limitări actuale ale modelelor de învățare profundă adică interpretabilitatea și explicabilitatea deciziilor luate.
+	- Rezultate aplicate unor jocuri video pentru a ilustra aplicabilitatea și eficiența agenților în scenarii interactive.
+	- Evaluare comparativă a agenților dezvoltați în proiect vs. alte sisteme similare.
+
+Contribuția studentului:
+	- Implementarea modulelor pentru integrarea agenților inteligenți autonomi într-un mediu virtual interactivi.
+	- Interfețe de interacțiune dintre agent și mediu cu ajustarea arhitecturii pentru îmbunătățirea performanței sau pt a răspunde cerințelor scenariilor analizate.
+	- Antrenare modele (pentru agenți) folosind seturi de date relevante, daca seturile de date nu sunt suficiente, se vor explora metode pentru generare și/sau extinderea lor(a celor deja existente).
+	- Efectuare de experimente prin modificarea componentelor de arhitectură/practici de antrenare pentru a explora impactul asupra performanței agenților, având în vedere timpii de decizie + rata de success în sarcini complexe.
+	- Validarea rezultatelor: comparație cu metode deja existente în literatura de specialitate, eficiența sistemului va fi măsurată prin metrici specifice pentru performanța agenților. Analiza va fi completată prin propuneri pentru îmbunătățirea tehnicilor existente pentru a crește gradul interpretabilității și explicabilității deciziilor luate de agent/agenți.
+

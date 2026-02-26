@@ -1,5 +1,9 @@
+%Preamble
 \documentclass[12pt]{article}
-\title{Puncte Foarte Generale}
+\title{Puncte Foarte Generale de Urmărit ale Proiectului}
+\author{Dumitru Marius-Vlad}
+\date{\today}
+
 % Document
 \begin{document}
 \maketitle
@@ -7,14 +11,20 @@
 Principalele puncte foarte generare ale proiectului sunt:
     \begin{itemize}
         \item Dezvoltarea unuia sau mai multor agenți, la alegere. Fie unul mare care sa le facă pe toate, fie mai mulți agenți micuți care să facă 1 singur task simplu(probabil alegerea potrivită este mai mulți agenți micuți care să facă 1 singur task.)
-        \item Folosirea tehnicilor si/sau algoritmilor de Reinforcement Learning clasic și/sau Deep Reinforcement Learning, la alegere.
-        \item Folosirea unui singur joc în care agenții vor desfășura acțiuni.
-        \item Evaluarea agentilor prin metrici specifice RL/DRL.
-        \item Comparații atât între agenți cât și cu literatura de specialitate. Eventual propuneri de îmbunătățire.
-        \item Proiectul trebuie să fie rulabil și ușor de folosit.
-        \item ( Optional ). Folosirea de teste pentru verificarea codului (Test Driven Development).
+        \item Folosirea tehnicilor și/sau algoritmilor de Reinforcement Learning clasic și/sau Deep Reinforcement Learning, la alegere.
+        \item Folosirea unui singur joc care va reprezenta mediul în care agenții vor interacționa. Agenți vor fi participanți(jucători) la meciuri iar interacțiunile vor fi de tip jucător$\rightarrow$jucător și jucător$\rightarrow$mediu(joc).
+        \item Agentul/Agenții vor fi jucători, prin urmare, el/ei trebuie să fie capabili să perceapă situația curentă, să decidă ce și cum (în baza situației curente), să joace(să execute acțiuni) pentru a atinge un scop(țel) final.
+        \item În cele din urmă, menirea agentului/agenților este obținerea(atingerea) unui scop(țel) final. Prin urmare, tot procesul de percepție $\rightarrow$ decizie $\rightarrow$ acțiune trebuie să urmărească acest scop(țel) final.
+        \item Scopul(țelul) final trebuie foarte bine definit, foarte clar. Deci lanțul percepție $\rightarrow$ decizie $\rightarrow$ acțiune va fi într-o direcție pentru obținerea unui anumit scop și într-o altă direcție diferită pentru obținerea altui scop diferit.
+        \item Mai multe experimente ce acoperă scenarii diferite. Scopurile agenților trebuie să acopere multiple situații/scenarii distincte. Acest aspect dă o diversitate proiectului.
+        \item Proiectul trebuie să explice foarte bine lanțul percepție $\rightarrow$ decizie $\rightarrow$ acțiune. DE CE anume sa decis și actionat într-un anume fel, în anume condiții vs. decis și acționat altfel în alte condiții. Răspuns la întrebarea generică "DE CE, ÎN SITUAȚIA X, SA PROCEDAT ÎN ACEST MOD ȘI NU ALTFEL / DE CE, ÎN SITUAȚIA X, SA DECIS ACEST MOD DE OPERARE SI NU ALTFEL ?" (Explicabilitate)
+        \item Antrenarea agenților cu ajutorul seturilor de date relevante. Crearea de noi seturi de date(daca este cazul) / extinderea celor existente (daca este cazul).
+        \item Evaluarea agenților prin metrici specifice RL/DRL. OBLIGATORIU trebuiesc avute în vedere metricile timpi de decizie, rată de succes (trecute în cerințele lucrării). Multiple experimente.
+        \item Comparații atât între agenții dezvoltați în proiect cât și cu literatura de specialitate. Eventual propuneri de îmbunătățire.
+        \item Proiectul trebuie să fie funcțional și ușor de folosit.
+        \item ( Opțional ). Folosirea de teste pentru verificarea codului (Test Driven Development).
         \item Folosire predominant Python + pachete relevante.
-        \item Daca este nevoie, dar într-o măsură limitată, folosirea și altor limbaje de programare. Dominant trebuie să rămână python + pachete.
-        \item Dezvoltare interfață Python pentru controlul extern al jucătorilor.
+        \item Dacă este nevoie, dar într-o măsură limitată, folosirea și altor limbaje de programare. Dominant trebuie să rămână python + pachete.
+        \item Agentul/Agenții și jocul sunt entități diferite. Jocul trebuie să ofere agentului/agenților, informații despre situația curentă a meciului și posibilitatea de manipulare a jucătorilor. Deci, între joc și agent/agenți trebuie să existe o interfață pentru interacțiune. Dacă jocul nu o oferă nativ, aceasta trebuie construită. (integrarea agenților cu mediul)
     \end{itemize}
 \end{document}
