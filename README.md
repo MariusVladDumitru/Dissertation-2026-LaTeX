@@ -31,3 +31,5 @@ Files with read permissions:
 - LaTeX class files: teza-upb.cls
 - settings file: settings.tex
 - Makefile file: Makefile
+
+# Test
