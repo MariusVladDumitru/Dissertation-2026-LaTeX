@@ -3,6 +3,7 @@
 \input{settings}
 
 \begin{document}
+% Preface
 \author{\hl{Marius-Vlad DUMITRU}}
 \title{\hl{\textit{Agent inteligent pentru medii virtuale interactive}}}
 \facultatea{Facultatea de Electronică, Telecomunicații și Tehnologia Informației}
@@ -13,34 +14,36 @@
 \titlulobtinut{Master}
 \advisor{\hl{Ș.l. Dr. Ing. Georgian NICOLAE}}
 
+% Settings
 \beforepreface
 \listoftables
 \listoffigures
 \cleardoublepage
 
-% abbreviations
-\abbreviations{ 
-CNN	& \textit{Convolutional Neural Network} (lb. en.; rețea neurală convoluțională)\\
-IA	& Inteligență artificială\\
-MFCC & \textit{Mel-frequency Cepstral Coefficient} (lb. en.; coeficient Mel-cepstral)\\
-RODeCAR & \textit{Romanian Deva Criminal Investigation Audio Recordings} (set de date) 
-}
+% Abbreviations (Include abbreviations here)
+\include{abbreviations/Abbreviations.tex}
+
+% Settings
 \cleardoublepage
 \afterpreface
 
+% Page Settings
 \pagenumbering{arabic}
 \pagestyle{plain}
 \setcounter{page}{1}
 
+% Chapters (Include chapters here)
 \include{chapters/1-Introducere}
 \include{chapters/2-Notatii}
 \include{chapters/3-Tabele}
 \include{chapters/4-Citare}
 
+% Bibliography (Include bibliography here)
 %\bibliographystyle{unsrt}
 %\bibliography{referinte}
 \printbibliography[heading=bibintoc,title={BIBLIOGRAFIE}]
 
+% Appendix
 \appendix
 %\include{Appendix1}
 \end{document}
