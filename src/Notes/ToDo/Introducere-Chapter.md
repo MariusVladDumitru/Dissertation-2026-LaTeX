@@ -1,0 +1,4 @@
+- [ ] De scris introducerea tezei(roadmap):
+  - [ ] Care sunt obiectivele principale ale tezei ? Ce se doreste a fi realizat ??????
+  - [ ] De ce ai ales un joc si nu altceva ? 
+  - [ ] De ce jocuri de tip RTS ?? De ce MicroRTS ???
