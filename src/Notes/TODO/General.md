@@ -1,4 +1,4 @@
-# ToDo:
+# TODO:
 - [ ] De scris capitolul introductiv al lucrarii(Introducere).
 - [ ] De scris capitolul introductiv despre genul RTS.
 - [ ] De scris capitolul despre MicroRTS.
